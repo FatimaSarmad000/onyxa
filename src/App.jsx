@@ -63,9 +63,9 @@ export default function App() {
       {/* Hero Section */}
       <section className="hero">
         <video autoPlay muted loop playsInline className="hero-video">
-          <source src="/background_video.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
+  <source src={`${import.meta.env.BASE_URL}background_video.mp4`} type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
 
         <div className="hero-content">
           <h1>Building the Future of Software </h1>
